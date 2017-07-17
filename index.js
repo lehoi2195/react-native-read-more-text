@@ -74,7 +74,7 @@ export default class ReadMore extends React.Component {
 
       return (
         <Text style={styles.button} onPress={this._handlePressReadMore}>
-          Read more
+          Xem thêm
         </Text>
       )
     } else if (shouldShowReadMore && showAllText) {
@@ -84,7 +84,7 @@ export default class ReadMore extends React.Component {
 
       return (
         <Text style={styles.button} onPress={this._handlePressReadLess}>
-          Hide
+          Rút gọn
         </Text>
       );
     }
@@ -105,7 +105,7 @@ function nextFrameAsync() {
 
 const styles = StyleSheet.create({
   button: {
-    color: '#888',
+    color: '#FFF',
     marginTop: 5,
   },
 });
